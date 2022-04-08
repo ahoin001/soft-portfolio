@@ -1,128 +1,115 @@
 export default {
-  author: "Sam Xie",
+  author: "Alexander Hoinville",
   hero: {
-    subtitle: "Software engineer at Cash App.",
-    description: "Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.",
-    cta: "Browse Products",
+    subtitle: "Junior Developer For Hire",
+    description:
+      "Seeking a Front End or React developer role where I can contribute to a company and continue to learn and sharpen my skills",
+    cta: "My Projects",
   },
   products: {
     featured: [
       {
-        name: "DoubleText",
-        medium: "React · Go · GraphQL",
-        summary: "Facebook Messenger Analyzer",
+        name: "Subtitle Hero",
+        medium: "React · Tailwind · Express · PostgreSQL",
+        summary: "Subtitlers Secret Weapon ",
         copy: [
-          "See millions of messages at a glance, without data leaving your computer."
+          "Easily add subtiles to videos with friendly UI and proffesionally ready to use vtt file",
         ],
         links: {
           color: "#363636",
           primary: {
-            name: "Discover",
-            url: "https://doubletext.me/"
-          }
+            name: "Check It Out",
+            url: "https://subtitle-hero.herokuapp.com/",
+          },
         },
-        images: [
-          "/doubletext/0.jpg",
-          "/doubletext/1.jpg",
-          "/doubletext/2.jpg",
-          "/doubletext/3.jpg",
-          "/doubletext/4.jpg"
-        ]
+        images: ["/subtitle/Subtitle-1.png", "/subtitle/Subtitle-2.png"],
       },
       {
-        name: "ClimbList",
-        medium: "React · Next.js",
-        summary: "Climbing gym discovery",
+        name: "NBA Dashboard",
+        medium: "Next.js · reChart · ChakraUI ",
+        summary: "Visual Analytics At Your Fingers ",
         copy: [
-          "The comparison site for climbers — coming soon."
+          "Check out how your favorite players are performing and compare stats.",
         ],
         links: {
           color: "#363636",
           primary: {
-            name: "Coming Soon",
-            url: "https://climblist.com/"
-          }
+            name: "Check It Out",
+            url: "https://nbadashboard-nextjs.vercel.app",
+          },
         },
-        images: [
-          "/climblist/0.jpg",
-          "/climblist/1.jpg",
-        ]
-      }
+        images: ["/nbadashboard/NBA-1.png", "/nbadashboard/NBA-2.png"],
+      },
     ],
     // Only supports 0-3 at the moment
-    minor: [
-      {
-        name: "Volunteer Portal",
-        description: "Portal for tracking volunteering opportunities.",
-        link: {
-          name: "Github",
-          url: "https://github.com/zendesk/volunteer_portal"
-        }
-      },
-      {
-        name: "Final Slash VR",
-        description: "Short survival experience on an abandoned planet.",
-        link: {
-          name: "Download",
-          url: "https://samzx.itch.io/final-slash-vr"
-        }
-      },
-      {
-        name: "MPH Watch",
-        description: "Stats for miners mining on Mining Pool Hub.",
-        link: {
-          name: "Demo",
-          url: "https://mphwatch.samxie.net/demo"
-        }
-      }
-    ]
+    // minor: [
+    //   {
+    //     name: "Volunteer Portal",
+    //     description: "Portal for tracking volunteering opportunities.",
+    //     link: {
+    //       name: "Github",
+    //       url: "https://github.com/zendesk/volunteer_portal",
+    //     },
+    //   },
+    //   {
+    //     name: "Final Slash VR",
+    //     description: "Short survival experience on an abandoned planet.",
+    //     link: {
+    //       name: "Download",
+    //       url: "https://samzx.itch.io/final-slash-vr",
+    //     },
+    //   },
+    //   {
+    //     name: "MPH Watch",
+    //     description: "Stats for miners mining on Mining Pool Hub.",
+    //     link: {
+    //       name: "Demo",
+    //       url: "https://mphwatch.samxie.net/demo",
+    //     },
+    //   },
+    // ],
   },
   logoSection: {
-    title: "As hired by",
+    title: "Proud Part Of",
     // Only supports 0-3 at the moment
     logos: [
       {
-        src: "/logos/unimelb.svg",
-        url: "https://unimelb.edu.au/"
+        src: "/logos/IronHack.webp",
+        url: "https://www.ironhack.com/en",
       },
       {
-        src: "/logos/zendesk.svg",
-        url: "https://www.zendesk.com/"
+        src: "/logos/UPE.png",
+        url: "https://upe.cs.fiu.edu/membership/",
       },
       {
-        src: "/logos/cashapp.svg",
-        url: "https://cash.app/"
-      }
-  ]
+        src: "/logos/SparkDev.png",
+        url: "https://upe.cs.fiu.edu/sparkdev/",
+      },
+    ],
   },
   footer: {
-    tagline: "Sam Xie — Melbourne, Australia",
+    tagline: "Alexander Hoinville — Miami, Florida",
     links: [
       {
         name: "Twitter",
-        url: "https://twitter.com/samxstudio",
-        fa: "fab fa-twitter" // Code from: https://fontawesome.com/v5/icons/twitter?s=brands
-      },
-      {
-        name: "Medium",
-        url: "https://medium.com/@samxie",
-        fa: "fab fa-medium"
+        url: "https://twitter.com/alexcodestheweb",
+        fa: "fab fa-twitter", // Code from: https://fontawesome.com/v5/icons/twitter?s=brands
       },
       {
         name: "Github",
-        url: "https://github.com/samzx",
-        fa: "fab fa-github"
+        url: "https://github.com/ahoin001",
+        fa: "fab fa-github",
       },
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/xiesam/",
-        fa: "fab fa-linkedin"
+        url: "https://www.linkedin.com/in/alexanderhoinville/",
+        fa: "fab fa-linkedin",
       },
       {
         name: "Email",
-        url: "mailto:contact@samxie.net",
-        fa: "fa fa-envelope"
+        url: "mailto:ahoin001@gmail.com",
+        fa: "fa fa-envelope",
       },
-    ]
-  }
-}
+    ],
+  },
+};
