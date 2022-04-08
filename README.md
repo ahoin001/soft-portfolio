@@ -7,7 +7,7 @@ A neumorphic inspired personal website and portfolio.
 - Link up your social and other links
 - Supports light and dark mode 💡
 
-Demo: https://samxie.net/
+Demo: https://soft-portfolio-orpin.vercel.app/
 
 ## Deploy your own
 
