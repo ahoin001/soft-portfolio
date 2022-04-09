@@ -49,7 +49,7 @@ const Card = styled.div`
     filter: saturate(0);
   }
 `
-  // height: 100%;
+
 const Logo = styled.img`
 
   height: 80px;
