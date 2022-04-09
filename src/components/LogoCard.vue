@@ -21,7 +21,7 @@ const StyledA = styled.a`
 
 const Card = styled.div`
   /* width: 240px; */
-  height: 40px;
+  height: 50%;
   flex: 1;
   display: flex;
   justify-content: space-between;
@@ -49,9 +49,10 @@ const Card = styled.div`
     filter: saturate(0);
   }
 `
-
+  // height: 100%;
 const Logo = styled.img`
-  height: 100%;
+
+  height: 80px;
   mix-blend-mode: exclusion;
   filter: invert(1);
   opacity: 0.8;
