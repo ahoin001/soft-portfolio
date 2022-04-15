@@ -25,7 +25,7 @@ export default {
         images: ["/subtitle/Subtitle-1.png", "/subtitle/Subtitle-2.png"],
       },
       {
-        name: "NBA Dashboard",
+        name: "NBA Heatcheck",
         medium: "Next.js · reChart · ChakraUI ",
         summary: "Visual Analytics At Your Fingers ",
         copy: [
@@ -35,7 +35,7 @@ export default {
           color: "#363636",
           primary: {
             name: "Check It Out",
-            url: "https://nbadashboard-nextjs.vercel.app",
+            url: "https://nba-heatcheck.vercel.app/",
           },
         },
         images: ["/nbadashboard/NBA-1.png", "/nbadashboard/NBA-2.png"],
