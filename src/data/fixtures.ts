@@ -13,7 +13,7 @@ export default {
         medium: "React · Tailwind · Express · PostgreSQL",
         summary: "Subtitlers Secret Weapon ",
         copy: [
-          "Easily add subtiles to videos with friendly UI and professionally ready to use vtt file",
+          "Easily add subtitles to videos with friendly UI and professionally ready to use vtt file",
         ],
         links: {
           color: "#363636",
