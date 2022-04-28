@@ -1,7 +1,7 @@
 export default {
   author: "Alexander Hoinville",
   hero: {
-    subtitle: "Junior Developer For Hire",
+    subtitle: "Web Developer For Hire",
     description:
       "Seeking a Front End or React developer role where I can contribute to a company and continue to learn and sharpen my skills",
     cta: "My Projects",
@@ -13,7 +13,7 @@ export default {
         medium: "React · Tailwind · Express · PostgreSQL",
         summary: "Subtitlers Secret Weapon ",
         copy: [
-          "Easily add subtiles to videos with friendly UI and proffesionally ready to use vtt file",
+          "Easily add subtiles to videos with friendly UI and professionally ready to use vtt file",
         ],
         links: {
           color: "#363636",
